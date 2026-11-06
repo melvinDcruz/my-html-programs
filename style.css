@@ -1,0 +1,56 @@
+body {
+    background-color: #eeeeee;
+}
+
+/* Traffic signal body */
+.signal {
+    height: 390px;
+    width: 130px;
+    padding: 15px;
+    border: 3px solid black;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: #222;
+}
+
+/* Red light */
+#div1 {
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid black;
+}
+
+#div1:hover {
+    box-shadow: 0 0 20px 10px red;
+}
+
+/* Yellow light */
+#div2 {
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+#div2:hover {
+    box-shadow: 0 0 20px 10px yellow;
+}
+
+/* Green light */
+#div3 {
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid black;
+}
+
+#div3:hover {
+    box-shadow: 0 0 20px 10px lime;
+} 
